@@ -2,8 +2,10 @@ from pygame import*
 
 warna_background = (119,210,223)
 mw = display.set_mode((800,650))
-mw.fill(warna_background)
 
+
+#hallo ini kak Dana
+mw.fill(warna_background)
 class karakter(sprite.Sprite):
     def __init__(self, x, y, panjang, lebar, nama):
         sprite.Sprite.__init__(self)
